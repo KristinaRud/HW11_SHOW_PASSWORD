@@ -19,7 +19,6 @@ form.addEventListener("click", (e) => {
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-
   const firstInputValue = form.querySelector("#first").value;
   const secondInputValue = form.querySelector("#second").value;
   if (
